@@ -1,0 +1,27 @@
+
+body{
+  background-color: black;
+  color: white;
+}
+.btn{
+  transition: ease-in-out .3s;
+}
+#TaskList::-webkit-scrollbar{
+display: none;
+}
+.inpform input {
+ border: 2px solid white;
+ width: 30vw;
+ padding-block: 8px;
+ padding-inline: 5px;
+ border-radius: 7px;
+ margin-block: 10px;
+ font-size: 17px;
+ padding-inline:10px ;
+}
+.inpform input::placeholder{
+  color: rgb(223, 217, 217);
+}
+.inpform{
+  color: white;
+}
